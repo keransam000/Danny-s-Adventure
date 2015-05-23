@@ -1,0 +1,35 @@
+//The Adventures of Danny
+import java.io.*;
+import static java.lang.System.*;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+class Game {
+  
+  
+  public static void main (String str[]){
+    
+    Scanner scan = new Scanner (System.in);
+    
+    System.out.println("Hello, welcome to Stillwater!\nWhat is your name?");
+    String name = scan.nextLine();
+    
+    System.out.println("What a dumb name! Nice to meet you Danny Leo!");
+    
+    System.out.println("Good Morning! You sure slept a long time! You're going downstairs from your bedroom and you find a teleporter! What do you do?");
+    System.out.println("1. Walk in the teleporter\n2. Nah, I think I will pass");
+    System.out.println("Please type in the number you believe is the best path to go on");
+    String d1 = scan.nextLine();
+    if (d1.equals("1"))
+    {
+      System.out.println("Voooosh. Hooray! Welcome to the world of Skyrim!");
+    }
+    else
+    {
+      System.out.println("What the hell is wrong with you? You actually passed up the oppurtunity of going into a teleporter? You die. The End");
+    }
+  }
+  
+  
+}
