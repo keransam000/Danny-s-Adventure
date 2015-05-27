@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class decisions{
+public class Decisions {
   
   private static String response;
   private static boolean result;
@@ -11,7 +11,7 @@ public class decisions{
     
     Scanner scan = new Scanner(System.in);
     
-    System.out.println("1. Step inside the teleporter \n2. Slowly walk away from the teleporter");
+    System.out.println("1.Game Step inside the teleporter \n2. Slowly walk away from the teleporter");
     response = scan.nextLine();
     
     if (response.equals("1")){

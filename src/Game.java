@@ -1,15 +1,9 @@
 //The Adventures of Danny
-import java.io.*;
-import static java.lang.System.*;
 
 import java.util.Scanner;
-import java.lang.Math;
 
-class Game extends decisions { 
+class Game extends Decisions {
   
-  public Game(){
-    super();
-  }
   
   public static void main (String str[]){
     
