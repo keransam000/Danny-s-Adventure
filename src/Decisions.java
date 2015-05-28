@@ -11,14 +11,14 @@ public class Decisions {
     
     Scanner scan = new Scanner(System.in);
     
-    System.out.println("1.Step inside the teleporter \n2. Slowly walk away from the teleporter");
+    System.out.println("1. Step inside the teleporter \n2. Slowly walk away from the teleporter");
     response = scan.nextLine();
     
     if (response.equals("1")){
-      System.out.println("Voooooosh. You have been teleported to the Kim-Jong Un-ited States of America");
       result = true;}
+
     else if (response.equals("2")){
-      System.out.println("Why the hell would you do that? 4 Ninjas were standing behind you. \nYou received 59 shurikens to the jugular.");
+
       result = false;}
     else System.out.println("Sorry that's not a valid response. Try again.");
     
@@ -26,8 +26,33 @@ public class Decisions {
   }
   
   public static boolean decisionTwo(){
-  return result;
+    System.out.println("1. Pick up the sword \nOR\n2. Leave it there and explore the area");
+
+    if (response.equals("1")){
+      result = true;}
+
+    else if (response.equals("2")){
+
+      result = false;}
+
+
+
+    return result;
   }
+
+  public static boolean decisionThree(){
+    System.out.println("You continue exploring this unfamiliar land.\nAfter a couple minutes, A wolf appears.");
+
+    if (response.equals("1")){
+      result = true;}
+
+    else if (response.equals("2")){
+
+      result = false;}
+
+
+
+    return result;}
   
   
   
