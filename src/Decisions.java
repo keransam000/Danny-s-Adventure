@@ -11,7 +11,7 @@ public class Decisions {
     
     Scanner scan = new Scanner(System.in);
     
-    System.out.println("1. Step inside the teleporter \n2. Slowly walk away from the teleporter");
+    System.out.println("1. Step inside the teleporter \nOR\n2. Slowly walk away from the teleporter");
     response = scan.nextLine();
     
     if (response.equals("1")){
@@ -29,6 +29,9 @@ public class Decisions {
   
   public static boolean decisionTwo(){
     System.out.println("1. Pick up the sword \nOR\n2. Leave it there and explore the area");
+    Scanner scan = new Scanner(System.in);
+    response = scan.nextLine();
+
 
     if (response.equals("1")){
       result = true;}

@@ -20,7 +20,7 @@ class Game extends Decisions {
     choice = decisionOne();
     
     if (!choice){
-      System.out.println("Why the hell would you do that? 4 Ninjas were standing behind you. \nYou received 59 shurikens to the jugular.");
+      System.out.println("Why the hell would you do that? 4 Ninjas were standing behind you. \nYou received 59 shurikens to the jugular.\n");
       System.out.println("You can have another chance");
       choice = decisionOne();
     }
