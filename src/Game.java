@@ -1,13 +1,16 @@
 //The Adventures of Danny
 
 import java.util.Scanner;
+import java.lang.Math;
 
 class Game extends Decisions {
   
   public static void main (String str[]){
-    
+
+    int health = 100;
     boolean choice;
-    
+
+
     Scanner scan = new Scanner (System.in);
     
     System.out.println("Hello, welcome to Stillwater!\nWhat is your name?");
@@ -35,6 +38,7 @@ class Game extends Decisions {
       }
       if (!choice){
         System.out.println("A stampede of elephants just trampled you. You were defenseless. You picked up the sword afterwards.");
+        health -= (int)(Math.random()*7+1);
       }
       }
     }
