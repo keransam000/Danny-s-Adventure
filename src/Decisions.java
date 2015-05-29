@@ -20,8 +20,10 @@ public class Decisions {
     else if (response.equals("2")){
 
       result = false;}
-    else System.out.println("Sorry that's not a valid response. Try again.");
-    
+    else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionOne();
+    }
     return result;
   }
   
@@ -35,7 +37,10 @@ public class Decisions {
 
       result = false;}
 
-
+    else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionTwo();
+    }
 
     return result;
   }

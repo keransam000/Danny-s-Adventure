@@ -19,21 +19,22 @@ class Game extends Decisions {
     
     choice = decisionOne();
     
-    if (choice == false){
+    if (!choice){
       System.out.println("Why the hell would you do that? 4 Ninjas were standing behind you. \nYou received 59 shurikens to the jugular.");
       System.out.println("You can have another chance");
-      choice = decisionOne();}
+      choice = decisionOne();
+    }
 
-    if (choice == true){
-      System.out.println("Voooooosh. You have been teleported to the Kim-Jong Un-ited States of America");
+    if (choice){
+      System.out.println("Voooooosh. You have been teleported to the Kim-Jong Un-ited States of America\n");
       System.out.println("You see a sword on the ground. It looks rather heavy, but you think you can lift it. Would you like to...");
       choice = decisionTwo();
 
-      if (choice == true){
-        System("The sword seems like a good fit. Maybe you will be able to use it at some point...";
-
-      if (choice == false){
-        System.out.println("A stampede of elephants just trampled you. You were defenseless. You pikced up the sword afterwards.);
+      if (choice) {
+        System.out.println("The sword seems like a good fit. Maybe you will be able to use it at some point...");
+      }
+      if (!choice){
+        System.out.println("A stampede of elephants just trampled you. You were defenseless. You picked up the sword afterwards.");
       }
       }
     }
@@ -45,4 +46,3 @@ class Game extends Decisions {
   }
   
   
-}
