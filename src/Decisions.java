@@ -81,8 +81,126 @@ else {
     }  
 
   
-  
+   public static boolean decisionFive(){
+    System.out.println("1. Asks if he lives by sea\nOR\n2. Stab him");
+
+    if (response.equals("2")){
+      result = true;}
+
+    else if (response.equals("1")){
+
+      result = false;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionFive();
+      
+      return result;
+}
+
+}
+    public static boolean decisionSix(){
+    System.out.println("1. Gather\nOR\n2. Set it on fire");
+
+    if (response.equals("1")){
+      result = true;}
+
+    else if (response.equals("2")){
+
+      result = true;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionSix();
+      
+      return result;
+}
 }
   
-  
- 
+   public static boolean decisionSeven(){
+    System.out.println("1. Tug on his beard\nOR\n2. Challenge to a battle");
+
+    if (response.equals("1")){
+      result = true;}
+
+    else if (response.equals("2")){
+
+      result = false;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionSeven();
+      
+      return result;
+}
+}
+    public static boolean decisionEight(){
+    System.out.println("1. Take his Super Bowl rings and claim it’s a gift\nOR\n2. Deflate his footballs");
+
+    if (response.equals("2")){
+      result = true;}
+
+    else if (response.equals("1")){
+
+      result = false;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionEight();
+      
+      return result;
+}
+}
+     public static boolean decisionNine(){
+    System.out.println("1. Punch it\nOR\n2. Sing Sarah McLachlan");
+
+    if (response.equals("2")){
+      result = true;}
+
+    else if (response.equals("1")){
+
+      result = false;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionNine();
+      
+      return result;
+}
+}
+      public static boolean decisionTen(){
+    System.out.println("1. Tell him to make better movies\nOR\n2. Tell him to make better moovies");
+
+    if (response.equals("1")){
+      result = true;}
+
+    else if (response.equals("2")){
+
+      result = false;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionTen();
+      
+      return result;
+}
+}
+       public static boolean decisionEleven(){
+    System.out.println("1. Kiss him\nOR\n2. Punch him");
+
+    if (response.equals("1")){
+      result = true;}
+
+    else if (response.equals("2")){
+
+      result = false;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionEleven();
+      
+      return result;
+}
+}
+   }
+   
