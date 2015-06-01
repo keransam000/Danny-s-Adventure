@@ -49,7 +49,7 @@ public class Decisions {
   }
 
   public static boolean decisionThree(){
-    System.out.println("You continue exploring this unfamiliar land.\nAfter a couple minutes, A wolf appears.");
+    System.out.println("You continue exploring this unfamiliar land.\nAfter a couple minutes, A wolf appears. \n1.Use a dog whistle.\nOR\n2.Befriend him");
 
     if (response.equals("1")){
       result = true;}
@@ -59,21 +59,27 @@ public class Decisions {
       result = false;}
 
 
-
     return result;}
+
   
+  public static boolean decisionFour(){
+    System.out.println("1. Pony clap\nOR\n2.Senior Prank! Ha!");
+
+    if (response.equals("1")){
+      result = true;}
+
+    else if (response.equals("2")){
+
+      result = false;}
+
+else {
+      System.out.println("Sorry that's not a valid response. Try again.");
+      decisionFour();}
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+      return result;
+        
+    }  
+
   
   
 }
