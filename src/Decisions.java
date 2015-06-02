@@ -49,7 +49,7 @@ public class Decisions {
   
   public static boolean decisionThree(){
     System.out.println("\nYou continue exploring this unfamiliar land.\nAfter a couple minutes, A wolf appears.");
-    System.out.println("Do you...\n1.Use a dog whistle.\nOR\n2.Befriend him");
+    System.out.println("Do you...\n1. Use a dog whistle.\nOR\n2. Befriend him");
     Scanner scan = new Scanner(System.in);
     response = scan.nextLine();
     
@@ -66,7 +66,7 @@ public class Decisions {
   
   public static boolean decisionFour(){
     System.out.println("\nMr. Bach sees you with the wolf and asks whether you're bringing it to school for a prank or not.");
-    System.out.println("Do you... \n1. Pony clap\nOR\n2.Tell him it's actually a Senior Prank! Ha!");
+    System.out.println("Do you... \n1. Pony clap\nOR\n2. Tell him it's actually a Senior Prank! Ha!");
     Scanner scan = new Scanner(System.in);
     response = scan.nextLine();
     
@@ -185,7 +185,7 @@ public class Decisions {
   }
   public static boolean decisionTen(){
     System.out.println("\nAdam Sandler walks up to you and starts talking to in one of the weird voices he uses in most of his movies. \nYou are very annoyed and mad at him because you saw The Waterboy in theaters and it was a bad movie.");
-    System.out.println("Do you...\n  1. Tell him to make better movies\nOR\n2. Tell him to make better moovies");
+    System.out.println("Do you...\n1. Tell him to make better movies\nOR\n2. Tell him to make better moovies");
     Scanner scan = new Scanner(System.in);
     response = scan.nextLine();
     
